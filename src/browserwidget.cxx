@@ -87,11 +87,11 @@ BrowserWidget::~BrowserWidget() {
 void BrowserWidget::setIconView() {
     listWidget->setViewMode(QListWidget::IconMode);
     listWidget->setFlow(QListWidget::LeftToRight);
-    listWidget->setWrapping(true);
+    //listWidget->setWrapping(true);
     listWidget->setMovement(QListWidget::Snap);
     listWidget->setResizeMode(QListWidget::Adjust);
-    listWidget->setGridSize(QSize(80,80));
-    listWidget->setWordWrap(true);
+    listWidget->setGridSize(QSize(100,90));
+    //listWidget->setWordWrap(true);
 }
 
 void BrowserWidget::setListView() {
